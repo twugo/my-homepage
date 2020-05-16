@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+
+p, li{
+    line-height: 2;
+}
+
+h2{
+    background-color: #ccc;
+    border-style: solid;
+    border-color: rgba(10, 10, 255, .7);
+    border-width: 0 0 2px 6px;
+    padding-left: 8px;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+#headerInner{
+    /* background: linear-gradient(135deg, aqua 30%, blue 70%, black 100%); */
+    background: #ddd;
+}
+
+#title{
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px 3px 0 rgba(0, 255, 0, .3);
+}
+
+#mainInner{
+    background: #eee;
+    /* border: solid 0 1px black; */
+}
