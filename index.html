@@ -13,23 +13,28 @@
 </head>
 
 <body>
-  <header>
-    <div class="w-100">
-      <div id="headerInner">
-        <div class="text-left">
-          <h1 id="title">
-            Twugo's HP.
-          </h1>
-        </div>
-      </div>
+  <div id="top"></div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Twugo's HomePage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu1">
+      <ul class="nav nav-pills ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#profile">プロフィール</a></li>
+        <li class="nav-item"><a class="nav-link" href="#activity">活動歴</a></li>
+        <li class="nav-item"><a class="nav-link" href="#link">リンク</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">作品集</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
   <main>
     <div class="container border rounded-top">
       <div id="mainInner">
         <article>
-          <section>
+          <section id="propile">
             <h2>プロフィール</h2>
             <div class="ml-3 mr-3">
               <ul>
@@ -55,7 +60,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section id="activity">
             <h2>活動歴</h2>
             <div class="ml-3 mr-3">
               <ul>
@@ -77,32 +82,11 @@
               </ul>
             </div>
           </section>
-          <section>
-            <h2>ギャラリー</h2>
-            <div class="ml-3 mr-3">
-              <h5 id="paintSoft">●簡易ペイントソフト(PCのみ)</h5>
-              <div class="ml-3 mr-3">
-                <iframe src="https://editor.p5js.org/twugo/embed/JgHL2Th5V" height=600 width=450></iframe>
-              </div>
-              <h5>●数学勉強プログラム</h5>
-              <a href="https://twugo.github.io/math-study/">●リンク</a>
-              <h5>●ダイクストラ法可視化</h5>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/a2SBJbmNe8s" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <h5>●kindleもどき</h5>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/5D6K2QTTAh8" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </section>
-          <section>
+          <section id="link">
             <h2>リンク</h2>
             <div class="ml-3 mr-3">
               <a href="https://twitter.com/twu_go" role="button" class="btn btn-primary"><i class='fab fa-twitter'></i>
                 Twitter</a>
-              <!-- <button type="button" class="btn btn-primary  " data_but="btn-xs"> Twitter</button> -->
-              <!-- <button type="button" class="btn btn-dark  " data_but="btn-xs"><i class='fa fa-github-square'></i> Github</button> -->
               <a href="https://github.com/twugo" role="button" class="btn btn-dark"><i class='fab fa-github-square'></i>
                 Github</a>
               <a href="https://www.youtube.com/channel/UCdU50mcjNhdUKWt_HjV_9pg" role="button" class="btn btn-danger"><i
@@ -122,7 +106,7 @@
   <footer>
     <div class="footerInner">
       <div class="text-left">
-        <a href="#headerInner">▲TOPへ戻る</a>
+        <a href="#top">▲TOPへ戻る</a>
       </div>
       <div class="text-center">
         <img src="images/twugo.jpg" width=100px height=100px>

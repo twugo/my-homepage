@@ -1,8 +1,7 @@
 $(document).ready(function(){
     $('#myAge').text('年齢：' + getAge(1998, 6, 24) + '歳');
-    $(document).bind('touchmove', function(e) {e.preventDefault();}, {passive: false});
 })
-// document.addEventListener('touchmove', function(e) {e.preventDefault();}, {passive: false});
+
 /**
  * calculate age.
  * @param {number} year - birth year

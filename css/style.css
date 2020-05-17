@@ -18,6 +18,10 @@ h5{
     padding-top: 20px;
 }
 
+main{
+    margin-top: 15px;
+}
+
 #headerInner{
     /* background: linear-gradient(135deg, aqua 30%, blue 70%, black 100%); */
     background: #ddd;
